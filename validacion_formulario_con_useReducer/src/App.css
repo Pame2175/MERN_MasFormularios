@@ -1,0 +1,45 @@
+/* formulario.css */
+
+#root {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.formulario {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Esto asegura que el padding no afecte el ancho total */
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Agregamos una transición suave al cambiar el color de fondo */
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
