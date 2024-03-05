@@ -17,6 +17,15 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+/* App.css */
+.nav-link {
+  transition: color 0.3s ease, border-bottom-color 0.3s ease; /* Agrega una transición suave para el cambio de color y borde inferior */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Cambia el color al pasar el cursor sobre la pestaña */
+}
+
 
 @keyframes logo-spin {
   from {

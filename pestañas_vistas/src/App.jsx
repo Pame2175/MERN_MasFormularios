@@ -12,6 +12,12 @@ const App = () => {
 
   const handleTabClick = (index) => {
     setSelectedTab(index);
+    animateTabChange(); // Llama a la función para la animación de cambio de pestaña
+  };
+
+  const animateTabChange = () => {
+    // Agrega aquí tu animación de cambio de pestaña con JavaScript
+    // Por ejemplo, puedes utilizar librerías de animación como GSAP o implementar una animación personalizada con CSS
   };
 
   return (
